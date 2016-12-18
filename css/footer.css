@@ -1,0 +1,284 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(https://fonts.googleapis.com/css?family=Courgette);
+@import url(https://fonts.googleapis.com/css?family=Exo+2);
+[class*="entypo-"]:before {
+    font-family: 'entypo', sans-serif;
+}
+
+* {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+    color: #0a0b0f;
+    background: #fff;
+}
+
+.wrapper {
+    margin: 0;
+}
+
+[class*="col-"] {
+/***
+    font-family: 'Exo 2', sans-serif;
+    letter-spacing: 0px;
+    background: #fefefd;
+    background: -moz-linear-gradient(top,  #fefefd 0%, #dce3c4 61%);
+    background: -webkit-linear-gradient(top,  #fefefd 0%,#dce3c4 61%);
+    background: linear-gradient(to bottom,  #fefefd 0%,#dce3c4 61%);***/  
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefd', endColorstr='#dce3c4',GradientType=0 );}
+
+
+
+
+
+.tint {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+#one {
+    color: #000000;
+    border-right: 1px solid rgba(10, 11, 15, 0.2);
+}
+#one h4 {
+
+    padding: .7em;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+#one ul li {
+    padding: .5em 1em .5em 0;
+    line-height: 1.5em;
+    list-style-type: square;
+}
+
+#one a {
+    text-decoration: none;
+    color: #000000;
+}
+#one a:hover {
+    margin-left: 0.7em;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+
+#icons {
+    margin: 0 auto;
+    cursor: pointer;
+    text-align: center;
+    min-height: 60px;
+}
+#icons ul li {
+    color: #a1a2aa;
+    display: inline;
+    font-size: 2em;
+    letter-spacing: 25px;
+}
+#icons ul li:hover {
+    color: #d7d7db;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+/*
+hr style adapted from Ibrahim Jabbari:
+http://codepen.io/ibrahimjabbari/pen/ozinB?editors=011
+*/
+hr.title {
+    padding: 0;
+    border: none;
+    height: 30px;
+    border-style: solid;
+    border-color: rgba(215, 215, 219, 0.7);
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    margin: 63px auto 13px;
+    width: 60%;
+}
+hr.title:after {
+    content: "Contact Us";
+    letter-spacing: 4px;
+    font-size: 1em;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    top: -13px;
+    padding: 0 5px;
+
+
+}
+hr.title:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: rgba(215, 215, 219, 0.7);
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+section.footer {
+    padding: 0;
+    margin: 0;
+
+
+}
+
+footer {
+    margin: 0;
+    height: 4em;
+    padding: 0;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                    justify-content: center;
+    width: 100%;
+}
+
+
+/*
+12 flex value columns for mix/matching different widths in a row.
+Not all have been used in this demo (only equal width cols used)
+*/
+@media all and (min-width: 830px) {
+    .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        width: 100%;
+    }
+
+    [class*="col-"]:last-child {
+        margin-right: 0;
+    }
+
+    .col-1 {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        -webkit-flex: 1;
+        flex: 1;
+    }
+
+    .col-2 {
+        -webkit-box-flex: 2;
+        -ms-flex: 2;
+        -webkit-flex: 2;
+        flex: 2;
+    }
+
+    .col-3 {
+        -webkit-box-flex: 3;
+        -ms-flex: 3;
+        -webkit-flex: 3;
+        flex: 3;
+    }
+
+    .col-4 {
+        -webkit-box-flex: 4;
+        -ms-flex: 4;
+        -webkit-flex: 4;
+        flex: 4;
+    }
+
+    .col-5 {
+        -webkit-box-flex: 5;
+        -ms-flex: 5;
+        -webkit-flex: 5;
+        flex: 5;
+    }
+
+    .col-6 {
+        -webkit-box-flex: 6;
+        -ms-flex: 6;
+        -webkit-flex: 6;
+        flex: 6;
+    }
+
+    .col-7 {
+        -webkit-box-flex: 7;
+        -ms-flex: 7;
+        -webkit-flex: 7;
+        flex: 7;
+    }
+
+    .col-8 {
+        -webkit-box-flex: 8;
+        -ms-flex: 8;
+        -webkit-flex: 8;
+        flex: 8;
+    }
+
+    .col-9 {
+        -webkit-box-flex: 9;
+        -ms-flex: 9;
+        -webkit-flex: 9;
+        flex: 9;
+    }
+
+    .col-10 {
+        -webkit-box-flex: 10;
+        -ms-flex: 10;
+        -webkit-flex: 10;
+        flex: 10;
+    }
+
+    .col-11 {
+        -webkit-box-flex: 11;
+        -ms-flex: 11;
+        -webkit-flex: 11;
+        flex: 11;
+    }
+
+    .col-12 {
+        -webkit-box-flex: 12;
+        -ms-flex: 12;
+        -webkit-flex: 12;
+        flex: 12;
+    }
+}
+
+h4
+{
+    padding: .9em;
+}
+.copyright {
+
+        color: black;
+        padding: 10px;
+        background-color: #C4D8C0
+    }
+
+        .copyright p {
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-size: 11px;
+        line-height: 26px;
+        text-transform: uppercase;
+    }
+@media (min-width: 720px) {
+ .copyright > p {
+        font-size: 12px;
+        }
+    }

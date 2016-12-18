@@ -1,0 +1,105 @@
+@-webkit-keyframes gray {
+    0% {
+        -webkit-filter: grayscale(0.5) blur(1px);
+    }
+    100% {
+        -webkit-filter: grayscale(0.9) blur(6px);
+    }
+}
+.thumb {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+.card {
+    overflow: hidden;
+    position:relative;
+    max-width: 0px auto !important;
+    float: left;
+    align-content: center;
+    padding: 5px;
+    margin-left: 0px auto !important;
+    margin-right: 20px auto !important;
+    margin-bottom: 40px;
+}
+.card .effect {
+    -webkit-animation-name: gray;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-delay: 0s;
+}
+
+.back {
+    display: block;
+    background: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    width: 0px auto !important;
+    height: 0px auto !important;
+    top: 100%;
+    left: 0;
+    text-align: center;
+}
+
+.center-block {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    align-content: center;
+}
+
+h1
+{
+    font-family: 'Lato', sans-serif;
+    font-size:45px;
+    color::  #000000;
+    text-transform: uppercase;
+    margin: 0px;
+    padding:20px;
+    align-items: center;
+}
+
+.tag3
+{
+    font-family: 'Lato', sans-serif;
+    color:  #000000;
+    margin: 0px auto !important;
+    padding: 30px auto !important;
+    align-items: center;
+    margin right: 0px;
+    margin left: 0px;
+    font-size: 1.2rem;
+    text-align: center;
+    border: 0px solid transparent;
+    margin-top: 0px auto !important;
+    margin-bottom: 30px auto !important;
+    font-style: normal;
+    -webkit-border-image: url (border.png) 30 round;
+    -a-border-image: url(border.png) 30 round;
+    border-image: url(border.png) 30 round;
+}
+
+.front
+     {
+         width: 400px;
+         height: 0px auto !important;
+         align-content: center;
+     }
+ img.align-center
+ {
+     display: block;
+     margin: 0px auto !important;
+ }
+
+ img.large
+ {
+     width: 500px;
+     height: 200px;
+ }
+ .prev, .next
+ {
+    overflow: hidden; 
+
+ }

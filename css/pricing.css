@@ -1,0 +1,131 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,900);
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.container14 {
+    margin: 0 auto !important;
+    width: 100%;
+    max-width: 1500px;
+    background: #feffe8;
+    background: -moz-linear-gradient(top,  #feffe8 0%, #d6dbbf 100%);
+    background: -webkit-linear-gradient(top,  #feffe8 0%,#d6dbbf 100%);
+    background: linear-gradient(to bottom,  #feffe8 0%,#d6dbbf 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffe8', endColorstr='#d6dbbf',GradientType=0 );
+    text-align: center
+
+}
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.grid-1-5 {
+    min-height:0px auto !important;
+    padding: 0px auto !important;
+    position: relative;
+    text-align: center;
+    transition: all .2s ease-in-out;
+}
+@media screen and (min-width: 700px) {
+    .grid-1-5 {
+        float: left;
+        width: 50%;
+    }
+    .grid-1-5:nth-child(odd) {
+        clear: left;
+    }
+}
+@media screen and (min-width: 800px) {
+    .grid-1-5 {
+        width: 33.3333333%;
+    }
+    .grid-1-5:nth-child(3n+1) {
+        clear: left;
+    }
+    .grid-1-5:nth-child(odd) {
+        clear: none;
+    }
+}
+@media screen and (min-width: 1120px) {
+    .grid-1-5 {
+        width: 20%;
+    }
+    .grid-1-5:nth-child(odd), .grid-1-5:nth-child(3n+1) {
+        clear: none;
+    }
+}
+
+.grid-1-5:hover {
+    *zoom: 1;
+    transform: scale(1.025);
+    z-index: 2;
+}
+.grid-1-5:hover:before, .grid-1-5:hover:after {
+    content: "";
+    position: absolute;
+    *zoom: 1;
+        background-size: 100%;
+    top: -2px;
+    bottom: -2px;
+    width: 2px;
+}
+.grid-1-5:hover:before {
+    left: -2px;
+}
+.grid-1-5:hover:after {
+    right: -2px;
+}
+.grid-1-5:hover .button {
+    background-color: #ee7a36;
+    *zoom: 1;
+    background-size: 100%;
+
+}
+
+h2, h3, p, ul {
+    margin: 0;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0 0 0.5em;
+}
+
+h3 {
+    font-size: 1em;
+    letter-spacing: 0em;
+    margin: 0 auto !important;
+}
+
+p {
+    font-size: 1em;
+}
+
+p, ul {
+    margin: 0 auto !important;
+}
+
+ul {
+    color: #000000;
+    font-size: 0.75em;
+    list-style-type: none;
+    padding: 0px;
+}
+ul li {
+    margin: margin: 0 auto !important;
+}
+
+.uppercase, .button, h2 {
+    color: #000000;
+    font-size: 0.89em;
+}
+
+sup, .small {
+    font-size: 0.6125em;
+}
+
+

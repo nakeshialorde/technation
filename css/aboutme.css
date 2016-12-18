@@ -1,0 +1,59 @@
+.copy1 {
+    width: auto !important;
+    max-width: auto;
+    height: 69%;
+    margin: 0 auto;
+    padding: 0
+    font-weight: 300;
+    align-content:center;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fefefd+0,dce3c4+100,aebf76+100 */
+background: #fefefd; /* Old browsers */
+background: -moz-linear-gradient(top,  #fefefd 0%, #dce3c4 100%, #aebf76 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #fefefd 0%,#dce3c4 100%,#aebf76 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #fefefd 0%,#dce3c4 100%,#aebf76 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefd', endColorstr='#aebf76',GradientType=0 ); /* IE6-9 */
+
+/** background-color: #E1C247;**/
+    color: #000000;
+    }
+
+.copy1, .teaser1 {
+    width: auto !important;
+    font-size: 1.4rem;
+    text-align: center;
+    font-style: italic
+    border: 50px solid transparent;
+    padding: 0px;
+    -webkit-border-image: url (border.png) 30 round;
+    -a-border-image: url(border.png) 30 round;
+    border-image: url(border.png) 30 round;
+}
+
+
+.few1{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4rem;
+    color:  #000000;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+}
+
+.home1
+{
+    font-family: 'Lato', sans-serif;
+    font-size:45px;
+    color::  #000000;
+    text-transform: uppercase;
+    margin: 0px;
+    padding:0px;
+    align-items: center;
+
+}
+
+.img-round
+{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
